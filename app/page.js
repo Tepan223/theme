@@ -29,6 +29,9 @@ export default function Home() {
             <h1 className={styles.judul}>Judul teks</h1>
             <p>Text ini otomatis berubah warna</p>
             <div>awdawdawawdawd</div>
+            <div className={styles.card}>
+                Ini card dengan border theme
+            </div>
         </div>
     )
 }

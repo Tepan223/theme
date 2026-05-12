@@ -2,12 +2,14 @@
 :root {
     --text-color: grey;
     --bg-color: wheat;
+    --border-color: black;
 }
 
-/* DARK */
 .dark {
     --text-color: white;
     --bg-color: black;
+    --border-color: white;
+    --p: 24px
 }
 
 body {
