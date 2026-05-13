@@ -4,6 +4,7 @@ import styles from "./page.module.css"
 import { Switch } from "antd"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
+import Header from './layout/header'
 
 export default function Home() {
     const { theme, setTheme } = useTheme()
@@ -32,6 +33,7 @@ export default function Home() {
             <div className={styles.card}>
                 Ini card dengan border theme
             </div>
+            <Header></Header>
         </div>
     )
 }

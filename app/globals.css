@@ -1,20 +1,36 @@
-/* LIGHT */
 :root {
-    --text-color: grey;
-    --bg-color: wheat;
-    --border-color: black;
+    --bg-color: #f8fafc;
+    --text-color: #0f172a;
+    --muted-text: #64748b;
+    --border-color: red;
+    --card-bg: #ffffff;
+    --primary: #22c55e;
+
+    --header-bg: rgba(255, 255, 255, 0.1);
 }
 
 .dark {
-    --text-color: white;
-    --bg-color: black;
-    --border-color: white;
-    --p: 24px
+    --bg-color: #0b1220;
+    --text-color: #e2e8f0;
+    --muted-text: #94a3b8;
+    --border-color: blue;
+    --card-bg: #111827;
+    --primary: #22c55e;
+
+    --header-bg: rgba(255, 255, 255, 0.1);
 }
 
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    transition: all 0.4s ease;
+    height: 200vh;
+}
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 16px;
 }
 *{
     margin: 0;
