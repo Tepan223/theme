@@ -5,6 +5,7 @@ import { Switch } from "antd"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
 import Header from "./layout/header"
+import FloatButton from './components/theme'
 import Lenis from "lenis"
 
 export default function Home() {
@@ -60,9 +61,7 @@ export default function Home() {
             <div className={styles.card}>
                 Ini card dengan border theme
             </div>
-
-            {/* tambahan biar keliatan scroll */}
-            <div style={{ height: "150vh" }} />
+            <FloatButton/>
         </div>
     )
 }
